@@ -1,0 +1,27 @@
+body {
+  width: 100%;
+  margin: 0;
+  height: 100%;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.circle {
+  background-color: black;
+  height: 20em;
+  width: 20em;
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+}
+/*# sourceMappingURL=style.css.map */
